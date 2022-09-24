@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-
-createApp(App).mount('#app')
+import vSelect from "vue-select";
+import "vue-select/dist/vue-select.css";
+createApp(App).component("vSelect", vSelect).mount('#app')

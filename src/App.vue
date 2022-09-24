@@ -1,26 +1,35 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="l-layout">
+    <LayoutHeader />
+    <div class="b-wave">
+      <img class="b-wave__background" src="./img/wave.png" alt="wave" />
+    </div>
+    <main class="l-contents">
+      <LayoutForm />
+      <LayoutPrize />
+      <LayoutData />
+      <LayoutMarket />
+    </main>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LayoutHeader from "./components/Header.vue";
+import LayoutForm from "./components/Form.vue";
+import LayoutPrize from "./components/Prize.vue";
+import LayoutData from "./components/Data.vue";
+import LayoutMarket from "./components/Market.vue";
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    LayoutHeader,
+    LayoutForm,
+    LayoutPrize,
+    LayoutData,
+    LayoutMarket,
+  },
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss" src="./styles/app.scss">
 </style>
