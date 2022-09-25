@@ -16,7 +16,7 @@ function getOptionValue(e) {
 async function checkStore() {
   // store1 - 須完全符合
   const storeList = ["store1", "store2", "store3"];
-  let inputStore = store.value;
+  let inputStore = store.value.toLowercase();
   let result = storeList.find((item) => item.includes(inputStore));
   if (result === undefined) {
     storeState.value = true;
