@@ -145,6 +145,7 @@ function handleSubmit() {
     submitPhone !== "" &&
     submitPhone.length === 10 &&
     submitAmount !== "" &&
+    amountState.value === false &&
     submitPayment !== ""
   ) {
     allSuccess.value = true;
@@ -157,6 +158,7 @@ function handleSubmit() {
     submitPhone === "" ||
     submitPhone.length < 10 ||
     submitAmount === "" ||
+    amountState.value === true ||
     submitPayment === ""
   ) {
     oneFailure.value = true;
