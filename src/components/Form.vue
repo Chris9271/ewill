@@ -140,7 +140,8 @@ function handleSubmit() {
   if (
     submitStore !== "" &&
     storeState.value === false &&
-    submitName !== "" &&
+    submitName !== "" && 
+    nameState.value === false &&
     submitPhone !== "" &&
     submitPhone.length === 10 &&
     submitAmount !== "" &&
@@ -152,6 +153,7 @@ function handleSubmit() {
     submitStore === "" ||
     storeState.value === true ||
     submitName === "" ||
+    nameState.value === true ||
     submitPhone === "" ||
     submitPhone.length < 10 ||
     submitAmount === "" ||
