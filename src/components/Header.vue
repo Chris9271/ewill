@@ -1,48 +1,45 @@
 <template>
-  <header class="l-header">
-    <div class="b-header">
-      <div class="b-header__titles">
-        <h1 class="b-header__titles-h1">There is no one</h1>
-        <h2 class="b-header__titles-h2">who loves pain</h2>
+  <header class="layout__header">
+    <div class="header">
+      <div class="header__title">
+        <h1 class="title-main">There is no one</h1>
+        <h2 class="title-sub">who loves pain</h2>
       </div>
-      <button class="b-header__button"><a href="#form">F o r m</a></button>
-      <div class="b-header__content">
-        <img class="paddle" src="../img/paddle.png" alt="paddle" />
-        <img class="sup" src="../img/sup.png" alt="sup" />
-        <img class="firework" src="../img/firework.png" alt="firework" />
-        <img class="paddle1" src="../img/paddle1.png" alt="paddle1" />
-        <img class="sup1" src="../img/sup1.png" alt="sup1" />
-        <div class="b-context">
-          <div class="b-context__title">
-            <img src="../img/cactus.png" alt="cactus" />
-            <p class="b-context__text">paragraph</p>
-            <img src="../img/cactus.png" alt="cactus" />
+      <button class="header__button"><a href="#form">F o r m</a></button>
+      <div class="header__content">
+        <img class="paddle" src="../img/paddle.svg" alt="paddle" />
+        <img class="sup" src="../img/sup.svg" alt="sup" />
+        <img class="firework" src="../img/firework.svg" alt="firework" />
+        <img class="paddle1" src="../img/paddle1.svg" alt="paddle1" />
+        <img class="sup1" src="../img/sup1.svg" alt="sup1" />
+        <img class="bubble1" src="../img/bubble1.svg" alt="bubble1" />
+        <img class="bubble2" src="../img/bubble2.svg" alt="bubble2" />
+        <div class="context">
+          <div class="context__title">
+            <img src="../img/cactus.svg" alt="cactus" />
+            <p class="context__text">paragraph</p>
+            <img src="../img/cactus.svg" alt="cactus" />
           </div>
-          <ol class="b-lists">
-            <li class="b-lists__listone">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
+          <ol class="context__list">
+            <li class="context__listone">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
           </ol>
         </div>
-        <div class="b-context">
-          <div class="b-context__title">
-            <img src="../img/cactus.png" alt="cactus" />
-            <p class="b-context__text">paragraph</p>
-            <img src="../img/cactus.png" alt="cactus" />
+        <div class="context">
+          <div class="context__title">
+            <img src="../img/cactus.svg" alt="cactus" />
+            <p class="context__text">paragraph</p>
+            <img src="../img/cactus.svg" alt="cactus" />
           </div>
-          <ol class="b-lists">
-            <li class="b-lists__listtwo">
+          <ol class="context__list">
+            <li class="context__listtwo">
               Quisque sodales leo
               <span class="underbold">vitae vulputate auctor.</span>
             </li>
-            <li class="b-lists__listtwo">
-              Proin ac justo ut nisl tincidunt imperdiet.Maecenas viverra libero
-              a pellentesque blandit.
+            <li class="context__listtwo">
+              Proin ac justo ut nisl tincidunt imperdiet.Maecenas viverra libero a pellentesque blandit.
             </li>
-            <li class="b-lists__listtwo">
-              Cras tristique tellus id leo bibendum, eu dapibus nisl accumsan.
-            </li>
-            <li class="b-lists__listtwo">
+            <li class="context__listtwo">Cras tristique tellus id leo bibendum, eu dapibus nisl accumsan.</li>
+            <li class="context__listtwo">
               Donec ultrices sapien
               <span class="bold">vitae leo venenatis ullamcorper.</span>
             </li>
@@ -55,6 +52,6 @@
 
 <script>
 export default {
-  name: "LayoutHeader",
-};
+  name: 'LayoutHeader',
+}
 </script>

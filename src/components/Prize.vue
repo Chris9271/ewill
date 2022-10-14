@@ -1,203 +1,141 @@
 <template>
-  <div class="l-prizes">
-    <div class="b-prizesone">
-      <div class="b-prize">
-        <div class="b-prize__cert">
-          <img
-            class="b-prize__cert-logo"
-            src="../img/certificateA.png"
-            alt="certificateA"
-          />
-          <p class="b-prize__cert-level">A</p>
+  <div class="contents__prizes">
+    <div class="prizes">
+      <div class="row-one">
+        <div class="prize">
+          <div class="prize__cert">
+            <img class="cert-logo" src="../img/certificateA.svg" alt="certificateA" />
+            <p class="cert-level">A</p>
+          </div>
+          <p class="prize__amount">one</p>
+          <p class="prize__content">dehumidifier</p>
         </div>
-        <p class="b-prize__level">one</p>
-        <p class="b-prize__content">dehumidifier</p>
+        <div class="prize">
+          <div class="prize__cert">
+            <img class="cert-logo" src="../img/certificateA.svg" alt="certificateA" />
+            <p class="cert-level">B</p>
+          </div>
+          <p class="prize__amount">one</p>
+          <p class="prize__content">range hood</p>
+        </div>
+        <div class="prize">
+          <div class="prize__cert">
+            <img class="cert-logo" src="../img/certificateA.svg" alt="certificateA" />
+            <p class="cert-level">C</p>
+          </div>
+          <p class="prize__amount">one</p>
+          <p class="prize__content">vaccum cleaner</p>
+        </div>
       </div>
-      <div class="b-prize">
-        <div class="b-prize__cert">
-          <img
-            class="b-prize__cert-logo"
-            src="../img/certificateA.png"
-            alt="certificateA"
-          />
-          <p class="b-prize__cert-level">B</p>
+      <div class="row-two">
+        <div class="prize">
+          <div class="prize__cert">
+            <img class="cert-logo" src="../img/certificateD.svg" alt="certificateD" />
+            <p class="cert-level">D</p>
+          </div>
+          <p class="prize__amount">one</p>
+          <p class="prize__content">toaster</p>
         </div>
-        <p class="b-prize__level">one</p>
-        <p class="b-prize__content">range hood</p>
+        <div class="prize">
+          <div class="prize__cert">
+            <img class="cert-logo" src="../img/certificateD.svg" alt="certificateD" />
+            <p class="cert-level">E</p>
+          </div>
+          <p class="prize__amount">one</p>
+          <p class="prize__content">scale</p>
+        </div>
+        <div class="prize">
+          <div class="prize__cert">
+            <img class="cert-logo" src="../img/certificateD.svg" alt="certificateD" />
+            <p class="cert-level">F</p>
+          </div>
+          <p class="prize__amount">one</p>
+          <p class="prize__content">straightening iron</p>
+        </div>
       </div>
-      <div class="b-prize">
-        <div class="b-prize__cert">
-          <img
-            class="b-prize__cert-logo"
-            src="../img/certificateA.png"
-            alt="certificateA"
-          />
-          <p class="b-prize__cert-level">C</p>
+      <div class="row-three">
+        <div class="prize">
+          <div class="prize__cert">
+            <img class="cert-logo" src="../img/certificateD.svg" alt="certificateD" />
+            <p class="cert-level">G</p>
+          </div>
+          <p class="prize__amount">five</p>
+          <p class="prize__content">vaccum cleaner</p>
         </div>
-        <p class="b-prize__level">one</p>
-        <p class="b-prize__content">vaccum cleaner</p>
+        <div class="prize">
+          <div class="prize__cert">
+            <img class="cert-logo" src="../img/certificateD.svg" alt="certificateD" />
+            <p class="cert-level">H</p>
+          </div>
+          <p class="prize__amount">ten</p>
+          <p class="prize__content">rice cooker</p>
+        </div>
       </div>
-    </div>
-    <div class="b-prizestwo">
-      <div class="b-prize">
-        <div class="b-prize__cert">
-          <img
-            class="b-prize__cert-logo"
-            src="../img/certificateD.png"
-            alt="certificateD"
-          />
-          <p class="b-prize__cert-level">D</p>
+      <div class="mobile">
+        <div class="prize-one">
+          <div class="prize__cert">
+            <img class="cert-logo" src="../img/certificateA.svg" alt="certificateA" />
+            <p class="cert-level">A</p>
+          </div>
+          <p class="prize__amount">one</p>
+          <p class="prize__content">dehumidifier</p>
         </div>
-        <p class="b-prize__level">one</p>
-        <p class="b-prize__content">toaster</p>
-      </div>
-      <div class="b-prize">
-        <div class="b-prize__cert">
-          <img
-            class="b-prize__cert-logo"
-            src="../img/certificateD.png"
-            alt="certificateD"
-          />
-          <p class="b-prize__cert-level">E</p>
+        <div class="prize-one">
+          <div class="prize__cert">
+            <img class="cert-logo" src="../img/certificateA.svg" alt="certificateA" />
+            <p class="cert-level">B</p>
+          </div>
+          <p class="prize__amount">one</p>
+          <p class="prize__content">range hood</p>
         </div>
-        <p class="b-prize__level">one</p>
-        <p class="b-prize__content">scale</p>
-      </div>
-      <div class="b-prize">
-        <div class="b-prize__cert">
-          <img
-            class="b-prize__cert-logo"
-            src="../img/certificateD.png"
-            alt="certificateD"
-          />
-          <p class="b-prize__cert-level">F</p>
+        <div class="prize-one">
+          <div class="prize__cert">
+            <img class="cert-logo" src="../img/certificateA.svg" alt="certificateA" />
+            <p class="cert-level">C</p>
+          </div>
+          <p class="prize__amount">one</p>
+          <p class="prize__content">vaccum cleaner</p>
         </div>
-        <p class="b-prize__level">one</p>
-        <p class="b-prize__content">straightening iron</p>
-      </div>
-    </div>
-    <div class="b-prizesthree">
-      <div class="b-prize">
-        <div class="b-prize__cert">
-          <img
-            class="b-prize__cert-logo"
-            src="../img/certificateD.png"
-            alt="certificateD"
-          />
-          <p class="b-prize__cert-level">G</p>
+        <div class="prize-two">
+          <div class="prize__cert">
+            <img class="cert-logo" src="../img/certificateD.svg" alt="certificateD" />
+            <p class="cert-level">D</p>
+          </div>
+          <p class="prize__amount">one</p>
+          <p class="prize__content">toaster</p>
         </div>
-        <p class="b-prize__level">five</p>
-        <p class="b-prize__content">vaccum cleaner</p>
-      </div>
-      <div class="b-prize">
-        <div class="b-prize__cert">
-          <img
-            class="b-prize__cert-logo"
-            src="../img/certificateD.png"
-            alt="certificateD"
-          />
-          <p class="b-prize__cert-level">H</p>
+        <div class="prize-two">
+          <div class="prize__cert">
+            <img class="cert-logo" src="../img/certificateD.svg" alt="certificateD" />
+            <p class="cert-level">E</p>
+          </div>
+          <p class="prize__amount">one</p>
+          <p class="prize__content">scale</p>
         </div>
-        <p class="b-prize__level">ten</p>
-        <p class="b-prize__content">rice cooker</p>
-      </div>
-    </div>
-    <div class="b-mobile">
-      <div class="b-mobileone">
-        <div class="b-prize__cert">
-          <img
-            class="b-prize__cert-logo"
-            src="../img/certificateA.png"
-            alt="certificateA"
-          />
-          <p class="b-prize__cert-level">A</p>
+        <div class="prize-two">
+          <div class="prize__cert">
+            <img class="cert-logo" src="../img/certificateD.svg" alt="certificateD" />
+            <p class="cert-level">F</p>
+          </div>
+          <p class="prize__amount">one</p>
+          <p class="prize__content">straightening iron</p>
         </div>
-        <p class="b-prize__level">one</p>
-        <p class="b-prize__content">dehumidifier</p>
-      </div>
-      <div class="b-mobileone">
-        <div class="b-prize__cert">
-          <img
-            class="b-prize__cert-logo"
-            src="../img/certificateA.png"
-            alt="certificateA"
-          />
-          <p class="b-prize__cert-level">B</p>
+        <div class="prize-two">
+          <div class="prize__cert">
+            <img class="cert-logo" src="../img/certificateD.svg" alt="certificateD" />
+            <p class="cert-level">G</p>
+          </div>
+          <p class="prize__amount">five</p>
+          <p class="prize__content">vaccum cleaner</p>
         </div>
-        <p class="b-prize__level">one</p>
-        <p class="b-prize__content">range hood</p>
-      </div>
-      <div class="b-mobileone">
-        <div class="b-prize__cert">
-          <img
-            class="b-prize__cert-logo"
-            src="../img/certificateA.png"
-            alt="certificateA"
-          />
-          <p class="b-prize__cert-level">C</p>
+        <div class="prize-two">
+          <div class="prize__cert">
+            <img class="cert-logo" src="../img/certificateD.svg" alt="certificateD" />
+            <p class="cert-level">H</p>
+          </div>
+          <p class="prize__amount">ten</p>
+          <p class="prize__content">rice cooker</p>
         </div>
-        <p class="b-prize__level">one</p>
-        <p class="b-prize__content">vaccum cleaner</p>
-      </div>
-      <div class="b-mobiletwo">
-        <div class="b-prize__cert">
-          <img
-            class="b-prize__cert-logo"
-            src="../img/certificateD.png"
-            alt="certificateD"
-          />
-          <p class="b-prize__cert-level">D</p>
-        </div>
-        <p class="b-prize__level">one</p>
-        <p class="b-prize__content">toaster</p>
-      </div>
-      <div class="b-mobiletwo">
-        <div class="b-prize__cert">
-          <img
-            class="b-prize__cert-logo"
-            src="../img/certificateD.png"
-            alt="certificateD"
-          />
-          <p class="b-prize__cert-level">E</p>
-        </div>
-        <p class="b-prize__level">one</p>
-        <p class="b-prize__content">scale</p>
-      </div>
-      <div class="b-mobiletwo">
-        <div class="b-prize__cert">
-          <img
-            class="b-prize__cert-logo"
-            src="../img/certificateD.png"
-            alt="certificateD"
-          />
-          <p class="b-prize__cert-level">F</p>
-        </div>
-        <p class="b-prize__level">one</p>
-        <p class="b-prize__content">straightening iron</p>
-      </div>
-      <div class="b-mobiletwo">
-        <div class="b-prize__cert">
-          <img
-            class="b-prize__cert-logo"
-            src="../img/certificateD.png"
-            alt="certificateD"
-          />
-          <p class="b-prize__cert-level">G</p>
-        </div>
-        <p class="b-prize__level">five</p>
-        <p class="b-prize__content">vaccum cleaner</p>
-      </div>
-      <div class="b-mobiletwo">
-        <div class="b-prize__cert">
-          <img
-            class="b-prize__cert-logo"
-            src="../img/certificateD.png"
-            alt="certificateD"
-          />
-          <p class="b-prize__cert-level">H</p>
-        </div>
-        <p class="b-prize__level">ten</p>
-        <p class="b-prize__content">rice cooker</p>
       </div>
     </div>
   </div>
@@ -205,7 +143,6 @@
 
 <script>
 export default {
-  name: "LayoutPrize",
-};
+  name: 'LayoutPrize',
+}
 </script>
-

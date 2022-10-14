@@ -8,29 +8,29 @@
 @import './data.scss';
 @import './market.scss';
 
-
 @mixin heading {
-    color: $color--title;
-    letter-spacing: $letter-spacing;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 125%;
+  color: $color--title;
+  letter-spacing: $letter-spacing;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
 }
 
 * {
-    box-sizing: border-box;
-    font-size: 16px;
-    scroll-behavior: smooth;
-    font-family: 'Noto Sans TC';
-    font-style: normal;
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  font-family: $font-family;
+  font-style: normal;
+  // cursor: url('../img/turtle.svg'), auto;
 }
 
 h1 {
-    @include heading;
-    font-size: 2rem;
+  @include heading;
+  font-size: 32px;
 }
 
 h2 {
-    @include heading;
-    font-size: 1.75rem;
+  @include heading;
+  font-size: 28px;
 }

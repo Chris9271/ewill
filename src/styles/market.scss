@@ -1,20 +1,20 @@
 .market {
-    background-color: $color--primary1;
-    border-radius: 3.125rem 3.125rem 0 0;
-    display: flex;
-    flex-direction: column;
-    padding: 2.5rem 1.25rem;
-    align-items: center;
-    align-self: stretch;
-    gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  padding: 40px 19px;
+  gap: 24px;
+  border-radius: 50px 50px 0 0;
+  background-color: $color--primary1;
 
-    &__title {
-        font-size: 1.25rem;
-        color: $color--title;
-        font-weight: 700;
-        line-height: 200%;
-        letter-spacing: $letter-spacing;
-        width: 18.9375rem;
-        text-align: center;
-    }
+  &__title {
+    max-width: 303px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 200%;
+    color: $color--title;
+    text-align: center;
+    letter-spacing: $letter-spacing;
+  }
 }

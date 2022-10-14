@@ -1,17 +1,29 @@
-.l-layout {
-    width: 100%;
-}
+.layout {
+  width: 100%;
+  overflow: hidden;
 
-.b-wave {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
+  &__wave {
+    background: url('../img/wave.svg') repeat-x;
+    width: calc(100vw + 200px);
+    height: 110px;
+    animation: waving 3s linear infinite;
+  }
 
-.l-contents {
-    margin-top: -0.3125rem;
+  &__contents {
+    margin-top: -5px;
+    padding-top: 16px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     background-color: $color--primary4;
+  }
+}
+
+@keyframes waving {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -200px;
+  }
 }
